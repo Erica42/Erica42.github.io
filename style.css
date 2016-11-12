@@ -1,3 +1,84 @@
+html {
+  background-image: url(yarnbackground.jpg);
+  color:white;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+  color: purple;
+}
+
+a:active {
+  color: blue;
+}
+
 body {
-  background: blue
+  max-width: 90%;
+}
+
+#close-up {
+  display: block;
+  margin: auto
+}
+
+div a:before {
+  content: '';
+  display: block;
+  padding: 6px;
+}
+
+footer {
+  max-width: 15%;
+  display: block;
+  margin: auto;
+}
+
+.pretty-words {
+  font-family: helvetica;
+}
+
+#spinning-title {
+  font-family: fantasy;
+}
+
+a.source {
+  display: flex;
+  justify-content: center;
+}
+
+#spindle {
+  max-width: 300px;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+table {
+  border: 1px solid white;
+  padding: 10px;
+}
+
+td {
+  border:1px solid white;
+}
+
+@media screen and (max-width: 340px) {
+  body {
+  flex-direction: column;
+  }
+
+  #spinning-title {
+  font-size: 20px;
+  }
+
+  img {
+    width: 100%;
+  }
 }
