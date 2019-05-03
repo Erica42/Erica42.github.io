@@ -18,13 +18,21 @@
 .ivy-text {
   text-align: center;
   position: absolute;
-  top: 50%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
 }
 .ivy h1{
-  font-size: 50px;
+  font-size: 40px;
+  font-family: 'Gravitas One', cursive;
+}
+.ivy h2 {
+  /*text-align: right;*/
+  font-family: 'Montserrat', sans-serif;
+}
+.buttons {
+  text-align: center;
 }
 /*dropdown button*/
 .dropbtn {
