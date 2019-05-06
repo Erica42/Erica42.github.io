@@ -2,9 +2,10 @@ body {
   margin: 0;
 }
 .ivy {
-  background-image: url(cropped_ivy.png);
-  background-color: #cccccc;
-  /*height: 100vh;*/
+  background: linear-gradient(
+                     rgba(20,20,20, .5),
+                     rgba(20,20,20, .5)),
+                     url(cropped_ivy.png);
   height: 500px;
   width: 100vw;
   display: flex;
@@ -13,6 +14,7 @@ body {
   background-size: cover;
   position: relative;
 }
+
 .ivy-text {
   text-align: center;
   position: absolute;
@@ -31,6 +33,7 @@ body {
 }
 .skills {
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
 }
 
 li {
