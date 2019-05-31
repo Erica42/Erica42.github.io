@@ -2,6 +2,9 @@
 body {
   margin: 0;
 }
+/* header {
+  float: left;
+} */
 .ivy {
   background: linear-gradient(
                      rgba(20,20,20, .5),
@@ -17,26 +20,35 @@ body {
 }
 
 .ivy-text {
+  margin-top: 10px;
+  height: 90%;
+  width: 50%;
   text-align: center;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+  /* border: 2px solid red; */
 }
 .ivy h1{
   font-size: 40px;
   font-family: 'Gravitas One', cursive;
+  /* border: 2px solid red; */
 }
-.ivy h2 {
+h2 {
   /*text-align: right;*/
+  /* font-size: 40px; */
   font-family: 'Montserrat', sans-serif;
 }
 .skills {
+  margin-top: 20%;
   /*text-align: center;*/
   font-family: 'Montserrat', sans-serif;
+  /* border: 2px solid red; */
 }
-.move{
+
+.gone{
   display: none;
 }
 
@@ -49,16 +61,16 @@ li {
 }
 .lilskills{
   /* border: 2px solid red; */
+  box-sizing: border-box;
   text-align: center;
   float: left;
-  padding: 10px;
-  width: 20%;
+  /* padding: 10px; */
+  width: 25%;
 }
 .buttons {
   text-align: center;
   padding: 50px;
 }
-
 /*dropdown button*/
 .dropbtn {
   background-color: #3e0a72;
@@ -148,6 +160,9 @@ li a {
   .move{
     display: block;
   }
+  .move2{
+    display: none;
+  }
   .gone{
     display: none;
   }
@@ -163,7 +178,7 @@ li a {
 
 @media (max-width: 670px){
   .ivy{
-    height: 600px;
+    height: 650px;
   }
   .lilskills{
     width: 100%;
@@ -173,8 +188,18 @@ li a {
 }
 
 @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-      text-align: center;
-    }
+  .skills{
+    margin-top:0%;
+  }
+  .column {
+    width: 100%;
+    text-align: center;
+  }
+  .move{
+    display: none;
+  }
+  .gone{
+    display: block;
+  }
+
   }
