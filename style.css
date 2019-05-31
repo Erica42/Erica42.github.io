@@ -59,11 +59,12 @@ li {
   padding: 10px;
   /* width: 25%; */
 }
-.lilskills{
+.lilskills {
   /* border: 2px solid red; */
   box-sizing: border-box;
   text-align: center;
   float: left;
+  font-size: 1.25em;
   /* padding: 10px; */
   width: 25%;
 }
