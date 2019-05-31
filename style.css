@@ -36,13 +36,14 @@ body {
   font-family: 'Gravitas One', cursive;
   /* border: 2px solid red; */
 }
+.name{
+  font-size: 2em;
+}
 h2 {
-  /*text-align: right;*/
-  /* font-size: 40px; */
   font-family: 'Montserrat', sans-serif;
 }
 .skills {
-  margin-top: 20%;
+  margin-top: 10%;
   /*text-align: center;*/
   font-family: 'Montserrat', sans-serif;
   /* border: 2px solid red; */
@@ -59,11 +60,12 @@ li {
   padding: 10px;
   /* width: 25%; */
 }
-.lilskills{
+.lilskills {
   /* border: 2px solid red; */
   box-sizing: border-box;
   text-align: center;
   float: left;
+  font-size: 1.25em;
   /* padding: 10px; */
   width: 25%;
 }
@@ -177,6 +179,9 @@ li a {
 }
 
 @media (max-width: 670px){
+  .name {
+    font-size: 1.5em;
+  }
   .ivy{
     height: 650px;
   }
