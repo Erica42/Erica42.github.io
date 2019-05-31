@@ -1,6 +1,4 @@
-* {
-  box-sizing: border-box;
-}
+
 body {
   margin: 0;
 }
@@ -47,20 +45,18 @@ li {
   text-align: center;
   float: left;
   padding: 10px;
-  /*need to work on spacing*/
-  width: 20%;
+  width: 25%;
 }
 .lilskills{
-
+  /* border: 2px solid red; */
   text-align: center;
   float: left;
   padding: 10px;
-  /*need to work on spacing*/
   width: 25%;
 }
 .buttons {
   text-align: center;
-  padding-top: 50px;
+  padding: 50px;
 }
 
 /*dropdown button*/
@@ -106,42 +102,35 @@ li {
 
 footer {
     background-color: rgba(229, 229, 229, 1.0);
-    /* color: #ffffff; */
     padding-top: 10px;
     padding-bottom: 10px;
     margin-top:5px;
     margin-bottom: 5px;
 }
 footer ul {
+    display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     /* border: 2px solid red; */
 }
-.inline {
-    /* display: inline-block; */
-    float: left;
-    padding-left: 2px;
-    padding-right: 2px;
-    border: 2px solid red;
-    text-align: center;
-    /* width: 25%; */
-    /* height: 48px; */
+.inline i{
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid red; */
 }
 
 li a {
-    /* text-align: center; */
     text-decoration: none;
     /* border: 2px solid red; */
   }
 
   .column {
-    /* float: left; */
-    /* width: 33.33%; */
     text-align: center;
     /* border: 2px solid red; */
   }
+
 /* footer {
   max-width: 50%;
   display: block;
@@ -151,7 +140,7 @@ li a {
  /* .column {
     text-align: center;
 } */
-@media (max-width: 1000px){
+@media (max-width: 1024px){
   h1 {
     display: none;
   }
@@ -164,15 +153,14 @@ li a {
   .lilskills{
     width: 50%;
     padding: 0px;
+    box-sizing: border-box;
+  }
+  .ivy {
+    height: 460px;
   }
 }
-@media (max-width: 670px){
-  /* h2{
-  }
-  h3{
-    border: 2px solid red;
-  } */
 
+@media (max-width: 670px){
   .ivy{
     height: 600px;
   }
