@@ -41,9 +41,6 @@ body {
 .move{
   display: none;
 }
-i {
-  font-size: 20px;
-}
 
 li {
   list-style: none;
@@ -87,7 +84,7 @@ li {
   position: absolute;
   background-color: #f1f1f1;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2)
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index:1;
 }
 /*links inside dropdown*/
@@ -108,11 +105,52 @@ li {
 .dropdown:hover .dropbtn {background-color: #360863;}
 
 footer {
+    background-color: rgba(229, 229, 229, 1.0);
+    /* color: #ffffff; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top:5px;
+    margin-bottom: 5px;
+}
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* border: 2px solid red; */
+}
+.inline {
+    /* display: inline-block; */
+    float: left;
+    padding-left: 2px;
+    padding-right: 2px;
+    border: 2px solid red;
+    text-align: center;
+    /* width: 25%; */
+    /* height: 48px; */
+}
+
+li a {
+    /* text-align: center; */
+    text-decoration: none;
+    /* border: 2px solid red; */
+  }
+
+  .column {
+    /* float: left; */
+    /* width: 33.33%; */
+    text-align: center;
+    /* border: 2px solid red; */
+  }
+/* footer {
   max-width: 50%;
   display: block;
   margin: auto;
   padding: 50px;
-}
+} */
+ /* .column {
+    text-align: center;
+} */
 @media (max-width: 1000px){
   h1 {
     display: none;
@@ -129,11 +167,11 @@ footer {
   }
 }
 @media (max-width: 670px){
-  h2{
+  /* h2{
   }
   h3{
-    /*border: 2px solid red;*/
-  }
+    border: 2px solid red;
+  } */
 
   .ivy{
     height: 600px;
@@ -144,3 +182,10 @@ footer {
     /*border: 2px solid red;*/
   }
 }
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      text-align: center;
+    }
+  }
