@@ -1,0 +1,58 @@
+/* playing with sticky footer before adding to main html */
+html{
+  height: 100%;
+
+}
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+}
+h1 {
+  font-size: 40px;
+  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Gravitas One', cursive; */
+  /* border: 2px solid red; */
+}
+.content {
+  flex: 1 0 auto;/* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
+
+}
+.nav {
+  background-color: rgba(20,20,20, .5);
+    /* background-color: rgba(82, 88,110,1.0); */
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 60px;
+    margin-top:5px;
+    margin-bottom: 5px;
+}
+.right{
+  float:right;
+}
+.link a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  color: white;
+  /* border: 2px solid red; */
+}
+.about {
+  text-align: center;
+  padding: 40px 60px;
+}
+.portrait {
+  max-width: 200px;
+  border-radius: 50%;
+}
+.about p {
+  /* border: 2px solid red; */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  margin-bottom: 25px;
+   line-height: 1.5;
+}
+.footer{
+  flex-shrink: 0;
+}
